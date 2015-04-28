@@ -1,7 +1,7 @@
 # -*- mode: ruby -*-
 # vi: set ft=ruby :
 
-ENV['VAGRANT_SERVER_URL'] ||= 'http://localhost:8080/catalog'
+ENV['VAGRANT_SERVER_URL'] ||= 'http://ec2-54-148-118-124.us-west-2.compute.amazonaws.com/catalog'
 
 boxes = [
   {:name => "IE10-Win7", :box => "dealertrack/IE10-Win7"},
