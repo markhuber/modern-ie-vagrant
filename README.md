@@ -25,5 +25,18 @@ To start multiple virtual machines at once
 vagrant up IE11-Win7 IE10-Win7 IE9-Win7 IE8-Win7
 ```
 
+##Available Vagrant Boxes
+
+* IE10-Win7
+* IE10-Win8
+* IE11-Win10
+* IE11-Win7 
+* IE11-Win8.1
+* IE6-WinXP
+* IE7-Vista
+* IE8-Win7
+* IE8-WinXP
+* IE9-Win7
+
 ##Known Issues
 Windows XP VMs do not support WinRM. Therefore, when trying to start these boxes Vagrant will hang while trying to connect. The VM starts and is usable, but the commandline will not return until the machine is shut down. The error from Vagrant can be safely ignored.
