@@ -13,7 +13,8 @@ boxes = [
   {:name => "IE7-Vista", :box => "dealertrack/IE7-Vista"},
   {:name => "IE8-Win7", :box => "dealertrack/IE8-Win7"},
   {:name => "IE8-WinXP", :box => "dealertrack/IE8-WinXP"},
-  {:name => "IE9-Win7", :box => "dealertrack/IE9-Win7"}
+  {:name => "IE9-Win7", :box => "dealertrack/IE9-Win7"},
+  {:name => "Edge-Win10", :box => "Microsoft/EdgeOnWindows10"}
 ]
 
 Vagrant.configure(2) do |config|

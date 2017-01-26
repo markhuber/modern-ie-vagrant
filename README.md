@@ -27,6 +27,7 @@ vagrant up IE11-Win7 IE10-Win7 IE9-Win7 IE8-Win7
 
 ##Available Vagrant Boxes
 
+* Edge-Win10
 * IE10-Win7
 * IE10-Win8
 * IE11-Win10
